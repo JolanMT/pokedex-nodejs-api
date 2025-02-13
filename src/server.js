@@ -13,8 +13,9 @@ app.use(express.json());
 const pokemonRoutes = require("./routes/pokemonRoutes");
 const trainerRoutes = require("./routes/trainerRoutes");
 const pkmnRoutes = require("./routes/pkmnRoutes");
+const authRoutes = require("./routes/authRoutes");
 
-
+app.use("/api/auth", authRoutes);
 app.use("/api/pkmn", pkmnRoutes);
 app.use("/api/trainers", trainerRoutes);
 app.use("/api/pokemons", pokemonRoutes);

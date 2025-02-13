@@ -7,9 +7,9 @@ const connectDB = async () => {
       throw new Error("MONGO_URI est manquant dans .env !");
     }
     await mongoose.connect(MONGO_URI);
-    console.log("? MongoDB connectÈ avec succËs !");
+    console.log("‚úÖ MongoDB connect√© avec succ√®s !");
   } catch (error) {
-    console.error("? Erreur de connexion ‡ MongoDB :", error);
+    console.error("‚ùå Erreur de connexion √† MongoDB :", error);
     process.exit(1);
   }
 };

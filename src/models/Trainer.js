@@ -1,8 +1,9 @@
 const mongoose = require("mongoose");
 
-const TrainerSchema = new mongoose.Schema({
+const trainerSchema = new mongoose.Schema({
+  email: { type: String, required: true, unique: true },
   username: { type: String, required: true, unique: true },
-  pokemons: [{ type: mongoose.Schema.Types.ObjectId, ref: "Pokemon" }]
+  password: { type: String, required: true },
 });
 
-module.exports = mongoose.model("Trainer", TrainerSchema);
+module.exports = mongoose.model("Trainer", trainerSchema);

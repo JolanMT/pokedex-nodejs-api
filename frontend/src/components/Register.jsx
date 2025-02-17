@@ -1,29 +1,47 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import axios from "axios";
-import { useNavigate } from "react-router-dom";
 
 const Register = () => {
+  // Ajout de l'état pour l'email en plus de username et password
+  const [email, setEmail] = useState("");
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
-  const navigate = useNavigate();
 
-  const handleSubmit = async (e) => {
+  const handleRegister = async (e) => {
     e.preventDefault();
+    console.log("Tentative d'inscription avec :", { email, username, password });
+
     try {
-      await axios.post("/api/auth/register", { username, password });
-      alert("Inscription réussie !");
-      navigate("/login");
+      const response = await axios.post("http://localhost:5000/api/auth/register", {
+        email, // On ajoute l'email
+        username,
+        password,
+      });
+      console.log("✅ Inscription réussie :", response.data);
     } catch (error) {
-      alert("Échec de l'inscription !");
+      console.error("❌ Erreur d'inscription :", error.response?.data || error.message);
     }
   };
 
   return (
     <div>
       <h2>Inscription</h2>
-      <form onSubmit={handleSubmit}>
-        <input type="text" placeholder="Nom d'utilisateur" value={username} onChange={(e) => setUsername(e.target.value)} />
-        <input type="password" placeholder="Mot de passe" value={password} onChange={(e) => setPassword(e.target.value)} />
+      <form onSubmit={handleRegister}>
+        <label>
+          Email :
+          <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} required />
+        </label>
+        <br />
+        <label>
+          Nom d'utilisateur :
+          <input type="text" value={username} onChange={(e) => setUsername(e.target.value)} required />
+        </label>
+        <br />
+        <label>
+          Mot de passe :
+          <input type="password" value={password} onChange={(e) => setPassword(e.target.value)} required />
+        </label>
+        <br />
         <button type="submit">S'inscrire</button>
       </form>
     </div>

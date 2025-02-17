@@ -1,12 +1,21 @@
-const dotenv = require("dotenv");
-dotenv.config();
+const dotenv = require("dotenv").config({ path: "X:\\.env "});
+
+const logger = require("./middlewares/logger");
+
+logger.info("✅ Winston fonctionne bien !");
+logger.error("⚠️ Ceci est un test d'erreur !");
 
 const express = require("express");
 const connectDB = require("./config/db");
+const cors = require("cors");
+
+const app = express();
+
+// Configurer CORS pour accepter les requêtes depuis le frontend
+app.use(cors({ origin: "http://localhost:3000", credentials: true }));
 
 connectDB();
 
-const app = express();
 
 app.use(express.json());
 

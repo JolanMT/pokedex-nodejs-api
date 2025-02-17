@@ -1,0 +1,22 @@
+2025-02-14 10:23:29 [ERROR]: ⚠️ Ceci est un test d'erreur !
+2025-02-14 10:23:39 [ERROR]: ⚠️ Ceci est un test d'erreur !
+2025-02-14 10:50:26 [ERROR]: ⚠️ Ceci est un test d'erreur !
+2025-02-14 10:59:32 [ERROR]: ⚠️ Ceci est un test d'erreur !
+2025-02-14 11:00:54 [ERROR]: ⚠️ Ceci est un test d'erreur !
+2025-02-14 11:01:26 [ERROR]: ⚠️ Ceci est un test d'erreur !
+2025-02-14 11:04:14 [ERROR]: ⚠️ Ceci est un test d'erreur !
+2025-02-14 11:08:33 [ERROR]: ⚠️ Ceci est un test d'erreur !
+2025-02-14 11:08:45 [ERROR]: Échec d'inscription: Champs manquants
+2025-02-14 11:08:59 [ERROR]: Échec d'inscription: Champs manquants
+2025-02-14 11:16:41 [ERROR]: ⚠️ Ceci est un test d'erreur !
+2025-02-14 11:17:09 [ERROR]: ⚠️ Ceci est un test d'erreur !
+2025-02-14 11:41:45 [ERROR]: ❌ Erreur dans authService.register(): Trainer validation failed: email: Path `email` is required.
+2025-02-14 11:41:45 [ERROR]: ❌ Erreur d'inscription pour oui : Trainer validation failed: email: Path `email` is required.
+2025-02-14 11:44:42 [ERROR]: ❌ Erreur dans authService.register(): Trainer validation failed: email: Path `email` is required.
+2025-02-14 11:44:42 [ERROR]: ❌ Erreur d'inscription pour oui : Trainer validation failed: email: Path `email` is required.
+2025-02-14 11:44:51 [ERROR]: ❌ Erreur dans authService.register(): Trainer validation failed: email: Path `email` is required.
+2025-02-14 11:44:51 [ERROR]: ❌ Erreur d'inscription pour oui : Trainer validation failed: email: Path `email` is required.
+2025-02-14 11:46:31 [ERROR]: ⚠️ Ceci est un test d'erreur !
+2025-02-14 11:47:10 [ERROR]: ⚠️ Ceci est un test d'erreur !
+2025-02-14 11:47:27 [ERROR]: ❌ Erreur dans authService.register(): Trainer validation failed: email: Path `email` is required.
+2025-02-14 11:47:27 [ERROR]: ❌ Erreur d'inscription pour oui : Trainer validation failed: email: Path `email` is required.

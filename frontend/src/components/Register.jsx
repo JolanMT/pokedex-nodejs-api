@@ -1,8 +1,8 @@
 import { useState } from "react";
 import axios from "axios";
+import "./register.css"; // Import du CSS spécifique
 
 const Register = () => {
-  // Ajout de l'état pour l'email en plus de username et password
   const [email, setEmail] = useState("");
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
@@ -13,7 +13,7 @@ const Register = () => {
 
     try {
       const response = await axios.post("http://localhost:5000/api/auth/register", {
-        email, // On ajoute l'email
+        email,
         username,
         password,
       });
@@ -24,26 +24,28 @@ const Register = () => {
   };
 
   return (
-    <div>
-      <h2>Inscription</h2>
-      <form onSubmit={handleRegister}>
-        <label>
-          Email :
-          <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} required />
-        </label>
-        <br />
-        <label>
-          Nom d'utilisateur :
-          <input type="text" value={username} onChange={(e) => setUsername(e.target.value)} required />
-        </label>
-        <br />
-        <label>
-          Mot de passe :
-          <input type="password" value={password} onChange={(e) => setPassword(e.target.value)} required />
-        </label>
-        <br />
-        <button type="submit">S'inscrire</button>
-      </form>
+    <div className="register-page"> {/* Classe spécifique pour ne pas affecter les autres pages */}
+      <div className="register-container">
+        <h2>Inscription</h2>
+        <form onSubmit={handleRegister}>
+          <label>
+            Email :
+            <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} required />
+          </label>
+          <br />
+          <label>
+            Nom d'utilisateur :
+            <input type="text" value={username} onChange={(e) => setUsername(e.target.value)} required />
+          </label>
+          <br />
+          <label>
+            Mot de passe :
+            <input type="password" value={password} onChange={(e) => setPassword(e.target.value)} required />
+          </label>
+          <br />
+          <button type="submit">S'inscrire</button>
+        </form>
+      </div>
     </div>
   );
 };

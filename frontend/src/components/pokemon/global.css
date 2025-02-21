@@ -1,0 +1,29 @@
+.pokemon-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 colonnes égales */
+    gap: 16px; /* Espacement entre les éléments */
+    padding: 20px;
+    width: 70%;
+}
+
+#listePokes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 10vh;
+}
+
+body{
+    background-color: white;
+    color: #242424;
+}
+
+
+button{
+    background-color: #242424;
+}
+button:hover{
+    background-color: #555555;
+}

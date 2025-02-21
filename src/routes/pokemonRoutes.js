@@ -10,6 +10,7 @@ const router = express.Router();
 router.get("/all", pokemonController.getAllPokemons);
 router.get("/search", pokemonController.searchPokemons);
 router.get("/:id", pokemonController.getPokemonById); // Récupérer un Pokémon par ID
+router.get("/", pokemonController.getAllPokemons);
 
 // 🟢 CRUD Pokémon (admin uniquement)
 router.post("/", authMiddleware, checkRole("ADMIN"), upload.single("image"), pokemonController.createPokemon);

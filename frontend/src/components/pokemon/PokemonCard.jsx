@@ -1,5 +1,6 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+import axios from "axios";
 import "./PokemonCard.css";
 
 // 🎨 Mapping des couleurs RGB pour chaque type
@@ -33,6 +34,44 @@ const getShadowColor = (types) => {
 
 const PokemonCard = ({ pokemon }) => {
   const [activeSection, setActiveSection] = useState("#general");
+  const [isCaptured, setIsCaptured] = useState(false);
+
+  useEffect(() => {
+    const checkCapturedStatus = async () => {
+      const token = localStorage.getItem("token");
+      if (!token) return;
+
+      try {
+        // Vérifier si le Pokémon est capturé
+        const userRes = await axios.get("http://localhost:5000/api/auth/me", {
+          headers: { Authorization: `Bearer ${token}` },
+        });
+
+        setIsCaptured(userRes.data.caughtPokemons.includes(pokemon._id));
+      } catch (error) {
+        console.error("❌ Erreur lors de la vérification du Pokémon capturé :", error);
+      }
+    };
+
+    checkCapturedStatus();
+  }, [pokemon._id]);
+
+  const handleCapture = async () => {
+    const token = localStorage.getItem("token");
+    if (!token) return;
+
+    try {
+      await axios.post(
+        `http://localhost:5000/api/trainers/capture/${pokemon._id}`,
+        {},
+        { headers: { Authorization: `Bearer ${token}` } }
+      );
+
+      setIsCaptured(true); // Met à jour l'affichage
+    } catch (error) {
+      console.error("❌ Erreur lors de la capture du Pokémon :", error);
+    }
+  };
 
   if (!pokemon) return null;
 
@@ -60,7 +99,18 @@ const PokemonCard = ({ pokemon }) => {
         ></div>
       </div>
 
+      {/* Bouton Capture */}
+      <div className="capture-container">
+        <button
+          className={`capture-button ${isCaptured ? "captured" : ""}`}
+          onClick={handleCapture}
+          disabled={isCaptured}
+        >
+          {isCaptured ? "Capturé ✅" : "Capture"}
+        </button>
+      </div>
       <div className="card-main">
+
         {/* SECTION GÉNÉRAL */}
         <div
           className={`card-section`}

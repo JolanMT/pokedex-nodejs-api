@@ -19,14 +19,13 @@ app.use(express.static('public'));
 
 app.use(express.json());
 
-const trainerRoutes = require("./routes/trainerRoutes");
 const authRoutes = require("./routes/authRoutes");
 const pokemonRoutes = require("./routes/pokemonRoutes");
+const trainerRoutes = require("./routes/trainerRoutes");
+app.use("/api/trainers", trainerRoutes);
 
 app.use("/uploads", express.static("uploads"));
-app.use("/api/pkmn", pokemonRoutes);
 app.use("/api/auth", authRoutes);
-app.use("/api/trainers", trainerRoutes);
 app.use("/api/pokemons", pokemonRoutes);
 app.use("/api/pkmn", (req, res, next) => {
     console.log(`📡 Requête reçue sur /api/pkmn avec méthode ${req.method} et URL ${req.url}`);

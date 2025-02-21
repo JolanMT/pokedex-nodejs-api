@@ -27,3 +27,16 @@ button{
 button:hover{
     background-color: #555555;
 }
+
+#connexionHeader{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+#connexionHeader button{
+
+    margin: 0;
+}

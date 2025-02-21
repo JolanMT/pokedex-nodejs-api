@@ -11,12 +11,7 @@ const Dashboard = () => {
     return null;
   }
 
-  return (
-    <div>
-      <h2>Bienvenue dans le Pokédex !</h2>
-      <button onClick={logout}>Se déconnecter</button>
-    </div>
-  );
+
 };
 
 export default Dashboard;

@@ -20,3 +20,34 @@
 2025-02-14 11:47:10 [ERROR]: ⚠️ Ceci est un test d'erreur !
 2025-02-14 11:47:27 [ERROR]: ❌ Erreur dans authService.register(): Trainer validation failed: email: Path `email` is required.
 2025-02-14 11:47:27 [ERROR]: ❌ Erreur d'inscription pour oui : Trainer validation failed: email: Path `email` is required.
+2025-02-21 11:31:13 [ERROR]: ⚠️ Ceci est un test d'erreur !
+2025-02-21 11:33:14 [ERROR]: ❌ Aucun utilisateur trouvé avec l'email ash@kanto
+2025-02-21 11:34:34 [ERROR]: ⚠️ Ceci est un test d'erreur !
+2025-02-21 11:38:34 [ERROR]: ⚠️ Ceci est un test d'erreur !
+2025-02-21 12:12:05 [ERROR]: ⚠️ Ceci est un test d'erreur !
+2025-02-21 15:23:59 [ERROR]: ⚠️ Ceci est un test d'erreur !
+2025-02-21 15:34:39 [ERROR]: ⚠️ Ceci est un test d'erreur !
+2025-02-21 17:05:45 [ERROR]: ⚠️ Ceci est un test d'erreur !
+2025-02-21 17:09:57 [ERROR]: ⚠️ Ceci est un test d'erreur !
+2025-02-21 17:10:04 [ERROR]: ⚠️ Ceci est un test d'erreur !
+2025-02-21 17:10:10 [ERROR]: ⚠️ Ceci est un test d'erreur !
+2025-02-21 17:10:31 [ERROR]: ⚠️ Ceci est un test d'erreur !
+2025-02-21 18:35:06 [ERROR]: ⚠️ Ceci est un test d'erreur !
+2025-02-21 19:11:37 [ERROR]: ⚠️ Ceci est un test d'erreur !
+2025-02-21 19:18:23 [ERROR]: ⚠️ Ceci est un test d'erreur !
+2025-02-21 20:19:30 [ERROR]: ⚠️ Ceci est un test d'erreur !
+2025-02-21 20:19:45 [ERROR]: ⚠️ Ceci est un test d'erreur !
+2025-02-21 20:21:43 [ERROR]: ⚠️ Ceci est un test d'erreur !
+2025-02-21 20:27:02 [ERROR]: ⚠️ Ceci est un test d'erreur !
+2025-02-21 20:30:02 [ERROR]: ⚠️ Ceci est un test d'erreur !
+2025-02-21 20:43:05 [ERROR]: ⚠️ Ceci est un test d'erreur !
+2025-02-21 20:43:26 [ERROR]: ⚠️ Ceci est un test d'erreur !
+2025-02-21 20:44:29 [ERROR]: ⚠️ Ceci est un test d'erreur !
+2025-02-21 20:54:01 [ERROR]: ⚠️ Ceci est un test d'erreur !
+2025-02-21 20:54:22 [ERROR]: ⚠️ Ceci est un test d'erreur !
+2025-02-21 21:06:29 [ERROR]: ⚠️ Ceci est un test d'erreur !
+2025-02-21 21:42:47 [ERROR]: ⚠️ Ceci est un test d'erreur !
+2025-02-21 21:45:37 [ERROR]: ⚠️ Ceci est un test d'erreur !
+2025-02-21 22:03:47 [ERROR]: ⚠️ Ceci est un test d'erreur !
+2025-02-21 22:04:38 [ERROR]: ⚠️ Ceci est un test d'erreur !
+2025-02-21 22:09:04 [ERROR]: ⚠️ Ceci est un test d'erreur !

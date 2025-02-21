@@ -1,16 +1,10 @@
 const jwt = require("jsonwebtoken");
 
-const isAdmin = (req, res, next) => {
-  if (req.user.role !== "ADMIN") {
-    return res.status(403).json({ message: "Accès interdit, admin requis" });
-  }
-  next();
-};
-
-
 const authMiddleware = (req, res, next) => {
+  console.log("🛡️ Vérification du token dans authMiddleware...");
+  
   const token = req.header("Authorization")?.replace("Bearer ", "");
-  console.log("🔐 Token reçu dans authMiddleware :", token);  // <--- LOG
+  console.log("🔐 Token reçu :", token); 
 
   if (!token) {
     console.log("🚫 Aucun token fourni !");
@@ -19,14 +13,13 @@ const authMiddleware = (req, res, next) => {
 
   try {
     const decoded = jwt.verify(token, process.env.JWT_SECRET);
-    console.log("✅ Token décodé dans authMiddleware :", decoded);  // <--- LOG
+    console.log("✅ Token décodé :", decoded);
     req.user = decoded;
     next();
   } catch (error) {
-    console.log("❌ Erreur lors de la vérification du token :", error.message);  // <--- LOG
+    console.log("❌ Erreur lors de la vérification du token :", error.message);
     res.status(401).json({ message: "Token invalide" });
   }
 };
 
-
-module.exports = { authMiddleware, isAdmin };
+module.exports = { authMiddleware };

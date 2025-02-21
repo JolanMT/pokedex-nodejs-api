@@ -50,3 +50,133 @@
 2025-02-14 11:47:27 [INFO]: 💾 Création de l'utilisateur oui en BDD...
 2025-02-14 11:47:27 [ERROR]: ❌ Erreur dans authService.register(): Trainer validation failed: email: Path `email` is required.
 2025-02-14 11:47:27 [ERROR]: ❌ Erreur d'inscription pour oui : Trainer validation failed: email: Path `email` is required.
+2025-02-21 11:31:13 [INFO]: ✅ Winston fonctionne bien !
+2025-02-21 11:31:13 [ERROR]: ⚠️ Ceci est un test d'erreur !
+2025-02-21 11:33:14 [INFO]: Tentative de connexion: ash@kanto
+2025-02-21 11:33:14 [INFO]: 👤 Vérification de l'existence de ash@kanto...
+2025-02-21 11:33:14 [ERROR]: ❌ Aucun utilisateur trouvé avec l'email ash@kanto
+2025-02-21 11:34:34 [INFO]: ✅ Winston fonctionne bien !
+2025-02-21 11:34:34 [ERROR]: ⚠️ Ceci est un test d'erreur !
+2025-02-21 11:34:36 [INFO]: Tentative d'inscription: oui@oui.oui
+2025-02-21 11:34:36 [INFO]: 👤 Vérification de l'existence de oui@oui.oui...
+2025-02-21 11:34:36 [INFO]: 🔑 Hashage du mot de passe pour oui...
+2025-02-21 11:34:36 [INFO]: 💾 Création de l'utilisateur oui avec l'email oui@oui.oui...
+2025-02-21 11:34:36 [INFO]: ✅ Utilisateur oui enregistré avec succès !
+2025-02-21 11:34:36 [INFO]: ✅ Inscription réussie pour oui
+2025-02-21 11:34:47 [INFO]: Tentative de connexion: oui@oui.oui
+2025-02-21 11:34:47 [INFO]: 👤 Vérification de l'existence de oui@oui.oui...
+2025-02-21 11:34:47 [INFO]: 🔐 Vérification du mot de passe pour oui@oui.oui...
+2025-02-21 11:34:47 [INFO]: ✅ Connexion réussie pour oui@oui.oui
+2025-02-21 11:34:47 [INFO]: ✅ Connexion réussie pour oui@oui.oui
+2025-02-21 11:38:34 [INFO]: ✅ Winston fonctionne bien !
+2025-02-21 11:38:34 [ERROR]: ⚠️ Ceci est un test d'erreur !
+2025-02-21 11:45:44 [INFO]: Tentative de connexion: oui@oui.oui
+2025-02-21 11:45:44 [INFO]: 👤 Vérification de l'existence de oui@oui.oui...
+2025-02-21 11:45:44 [INFO]: 🔐 Vérification du mot de passe pour oui@oui.oui...
+2025-02-21 11:45:44 [INFO]: ✅ Connexion réussie pour oui@oui.oui
+2025-02-21 11:45:44 [INFO]: ✅ Connexion réussie pour oui@oui.oui
+2025-02-21 12:12:05 [INFO]: ✅ Winston fonctionne bien !
+2025-02-21 12:12:05 [ERROR]: ⚠️ Ceci est un test d'erreur !
+2025-02-21 12:34:36 [INFO]: Tentative de connexion: oui@oui.oui
+2025-02-21 12:34:36 [INFO]: 👤 Vérification de l'existence de oui@oui.oui...
+2025-02-21 12:34:36 [INFO]: 🔐 Vérification du mot de passe pour oui@oui.oui...
+2025-02-21 12:34:36 [INFO]: ✅ Connexion réussie pour oui@oui.oui
+2025-02-21 12:34:36 [INFO]: ✅ Connexion réussie pour oui@oui.oui
+2025-02-21 12:41:47 [INFO]: Tentative d'inscription: try@try.try
+2025-02-21 12:41:47 [INFO]: 👤 Vérification de l'existence de try@try.try...
+2025-02-21 12:41:47 [INFO]: 🔑 Hashage du mot de passe pour try...
+2025-02-21 12:41:47 [INFO]: 💾 Création de l'utilisateur try avec l'email try@try.try...
+2025-02-21 12:41:47 [INFO]: ✅ Utilisateur try enregistré avec succès !
+2025-02-21 12:41:47 [INFO]: ✅ Inscription réussie pour try
+2025-02-21 12:41:47 [INFO]: Tentative de connexion: try@try.try
+2025-02-21 12:41:47 [INFO]: 👤 Vérification de l'existence de try@try.try...
+2025-02-21 12:41:47 [INFO]: 🔐 Vérification du mot de passe pour try@try.try...
+2025-02-21 12:41:47 [INFO]: ✅ Connexion réussie pour try@try.try
+2025-02-21 12:41:47 [INFO]: ✅ Connexion réussie pour try@try.try
+2025-02-21 13:05:23 [INFO]: Tentative de connexion: oui@oui.oui
+2025-02-21 13:05:23 [INFO]: 👤 Vérification de l'existence de oui@oui.oui...
+2025-02-21 13:05:23 [INFO]: 🔐 Vérification du mot de passe pour oui@oui.oui...
+2025-02-21 13:05:23 [INFO]: ✅ Connexion réussie pour oui@oui.oui
+2025-02-21 13:05:23 [INFO]: ✅ Connexion réussie pour oui@oui.oui
+2025-02-21 13:18:03 [INFO]: Tentative de connexion: oui@oui.oui
+2025-02-21 13:18:03 [INFO]: 👤 Vérification de l'existence de oui@oui.oui...
+2025-02-21 13:18:03 [INFO]: 🔐 Vérification du mot de passe pour oui@oui.oui...
+2025-02-21 13:18:04 [INFO]: ✅ Connexion réussie pour oui@oui.oui
+2025-02-21 13:18:04 [INFO]: ✅ Connexion réussie pour oui@oui.oui
+2025-02-21 15:23:59 [INFO]: ✅ Winston fonctionne bien !
+2025-02-21 15:23:59 [ERROR]: ⚠️ Ceci est un test d'erreur !
+2025-02-21 15:34:39 [INFO]: ✅ Winston fonctionne bien !
+2025-02-21 15:34:39 [ERROR]: ⚠️ Ceci est un test d'erreur !
+2025-02-21 16:06:56 [INFO]: Tentative de connexion: oui@oui.oui
+2025-02-21 16:06:56 [INFO]: 👤 Vérification de l'existence de oui@oui.oui...
+2025-02-21 16:06:56 [INFO]: 🔐 Vérification du mot de passe pour oui@oui.oui...
+2025-02-21 16:06:56 [INFO]: ✅ Connexion réussie pour oui@oui.oui
+2025-02-21 16:06:56 [INFO]: ✅ Connexion réussie pour oui@oui.oui
+2025-02-21 17:05:45 [INFO]: ✅ Winston fonctionne bien !
+2025-02-21 17:05:45 [ERROR]: ⚠️ Ceci est un test d'erreur !
+2025-02-21 17:09:57 [INFO]: ✅ Winston fonctionne bien !
+2025-02-21 17:09:57 [ERROR]: ⚠️ Ceci est un test d'erreur !
+2025-02-21 17:10:04 [INFO]: ✅ Winston fonctionne bien !
+2025-02-21 17:10:04 [ERROR]: ⚠️ Ceci est un test d'erreur !
+2025-02-21 17:10:10 [INFO]: ✅ Winston fonctionne bien !
+2025-02-21 17:10:10 [ERROR]: ⚠️ Ceci est un test d'erreur !
+2025-02-21 17:10:31 [INFO]: ✅ Winston fonctionne bien !
+2025-02-21 17:10:31 [ERROR]: ⚠️ Ceci est un test d'erreur !
+2025-02-21 17:10:45 [INFO]: Tentative de connexion: oui@oui.oui
+2025-02-21 17:10:45 [INFO]: 👤 Vérification de l'existence de oui@oui.oui...
+2025-02-21 17:10:45 [INFO]: 🔐 Vérification du mot de passe pour oui@oui.oui...
+2025-02-21 17:10:45 [INFO]: ✅ Connexion réussie pour oui@oui.oui
+2025-02-21 17:10:45 [INFO]: ✅ Connexion réussie pour oui@oui.oui
+2025-02-21 18:35:06 [INFO]: ✅ Winston fonctionne bien !
+2025-02-21 18:35:06 [ERROR]: ⚠️ Ceci est un test d'erreur !
+2025-02-21 19:11:37 [INFO]: ✅ Winston fonctionne bien !
+2025-02-21 19:11:37 [ERROR]: ⚠️ Ceci est un test d'erreur !
+2025-02-21 19:18:23 [INFO]: ✅ Winston fonctionne bien !
+2025-02-21 19:18:23 [ERROR]: ⚠️ Ceci est un test d'erreur !
+2025-02-21 20:19:30 [INFO]: ✅ Winston fonctionne bien !
+2025-02-21 20:19:30 [ERROR]: ⚠️ Ceci est un test d'erreur !
+2025-02-21 20:19:45 [INFO]: ✅ Winston fonctionne bien !
+2025-02-21 20:19:45 [ERROR]: ⚠️ Ceci est un test d'erreur !
+2025-02-21 20:21:43 [INFO]: ✅ Winston fonctionne bien !
+2025-02-21 20:21:43 [ERROR]: ⚠️ Ceci est un test d'erreur !
+2025-02-21 20:27:02 [INFO]: ✅ Winston fonctionne bien !
+2025-02-21 20:27:02 [ERROR]: ⚠️ Ceci est un test d'erreur !
+2025-02-21 20:27:24 [INFO]: Tentative de connexion: oui@oui.oui
+2025-02-21 20:27:24 [INFO]: 👤 Vérification de l'existence de oui@oui.oui...
+2025-02-21 20:27:24 [INFO]: 🔐 Vérification du mot de passe pour oui@oui.oui...
+2025-02-21 20:27:24 [INFO]: ✅ Connexion réussie pour oui@oui.oui
+2025-02-21 20:27:24 [INFO]: ✅ Connexion réussie pour oui@oui.oui
+2025-02-21 20:30:02 [INFO]: ✅ Winston fonctionne bien !
+2025-02-21 20:30:02 [ERROR]: ⚠️ Ceci est un test d'erreur !
+2025-02-21 20:43:05 [INFO]: ✅ Winston fonctionne bien !
+2025-02-21 20:43:05 [ERROR]: ⚠️ Ceci est un test d'erreur !
+2025-02-21 20:43:26 [INFO]: ✅ Winston fonctionne bien !
+2025-02-21 20:43:26 [ERROR]: ⚠️ Ceci est un test d'erreur !
+2025-02-21 20:44:29 [INFO]: ✅ Winston fonctionne bien !
+2025-02-21 20:44:29 [ERROR]: ⚠️ Ceci est un test d'erreur !
+2025-02-21 20:54:01 [INFO]: ✅ Winston fonctionne bien !
+2025-02-21 20:54:01 [ERROR]: ⚠️ Ceci est un test d'erreur !
+2025-02-21 20:54:22 [INFO]: ✅ Winston fonctionne bien !
+2025-02-21 20:54:22 [ERROR]: ⚠️ Ceci est un test d'erreur !
+2025-02-21 21:06:29 [INFO]: ✅ Winston fonctionne bien !
+2025-02-21 21:06:29 [ERROR]: ⚠️ Ceci est un test d'erreur !
+2025-02-21 21:39:03 [INFO]: Tentative de connexion: oui@oui.oui
+2025-02-21 21:39:03 [INFO]: 👤 Vérification de l'existence de oui@oui.oui...
+2025-02-21 21:39:03 [INFO]: 🔐 Vérification du mot de passe pour oui@oui.oui...
+2025-02-21 21:39:03 [INFO]: ✅ Connexion réussie pour oui@oui.oui
+2025-02-21 21:39:03 [INFO]: ✅ Connexion réussie pour oui@oui.oui
+2025-02-21 21:42:47 [INFO]: ✅ Winston fonctionne bien !
+2025-02-21 21:42:47 [ERROR]: ⚠️ Ceci est un test d'erreur !
+2025-02-21 21:45:37 [INFO]: ✅ Winston fonctionne bien !
+2025-02-21 21:45:37 [ERROR]: ⚠️ Ceci est un test d'erreur !
+2025-02-21 21:46:10 [INFO]: Tentative de connexion: oui@oui.oui
+2025-02-21 21:46:10 [INFO]: 👤 Vérification de l'existence de oui@oui.oui...
+2025-02-21 21:46:10 [INFO]: 🔐 Vérification du mot de passe pour oui@oui.oui...
+2025-02-21 21:46:10 [INFO]: ✅ Connexion réussie pour oui@oui.oui
+2025-02-21 21:46:10 [INFO]: ✅ Connexion réussie pour oui@oui.oui
+2025-02-21 22:03:47 [INFO]: ✅ Winston fonctionne bien !
+2025-02-21 22:03:47 [ERROR]: ⚠️ Ceci est un test d'erreur !
+2025-02-21 22:04:38 [INFO]: ✅ Winston fonctionne bien !
+2025-02-21 22:04:38 [ERROR]: ⚠️ Ceci est un test d'erreur !
+2025-02-21 22:09:04 [INFO]: ✅ Winston fonctionne bien !
+2025-02-21 22:09:04 [ERROR]: ⚠️ Ceci est un test d'erreur !
